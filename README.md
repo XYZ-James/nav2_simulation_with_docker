@@ -1,6 +1,8 @@
-# nav2_simulation_with_docker
-도커를 활용한 자율주행 로봇 시뮬레이션 자료
+# 도커를 활용한 자율주행 로봇 시뮬레이션 자료
 
+* Dockerfile 설치
+
+        [https://docs.docker.com/engine/install/ubuntu/](https://docs.docker.com/engine/install/ubuntu/)
 
 * Dockerfile 빌드
 

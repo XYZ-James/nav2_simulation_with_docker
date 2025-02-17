@@ -75,11 +75,11 @@
 * Param 조회 & 수정
 
         # Cmd Vel Scale 조회 & 수정
-        ros2 param get /new_cmd_publisher linear_scale
-        ros2 param get /new_cmd_publisher angular_scale
-        ros2 param set /new_cmd_publisher linear_scale 0.8
-        ros2 param set /new_cmd_publisher angular_scale 1.5
-
+        ros2 param get /cmd_vel_example linear_scale
+        ros2 param get /cmd_vel_example angular_scale
+        ros2 param set /cmd_vel_example linear_scale 0.8
+        ros2 param set /cmd_vel_example angular_scale 1.5
+  
         # Obstacle Detect Range 조회 & 수정
         ros2 param get /scan_example obstacle_detect_range
         ros2 param set /scan_example obstacle_detect_range 0.7
